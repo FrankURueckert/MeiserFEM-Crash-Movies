@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MeiserFEM — Realistische Blender Crash-Movies (100 km/h Blau &amp; 50 km/h Rot, 1x Wiedergabe)</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, sans-serif; background: #101217; color: #e5e7eb; margin: 0; padding: 24px; }
+    .wrap { max-width: 740px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+    h1 { font-size: 19px; margin: 0 0 4px 0; color: #f8fafc; }
+    .sub { font-size: 13px; color: #94a3b8; margin: 0; line-height: 1.45; }
+    .group { display: flex; flex-direction: column; gap: 14px; }
+    .ghdr h2 { font-size: 16px; margin: 0; color: #f8fafc; }
+    .gsub { font-size: 12.5px; margin: 3px 0 0 0; color: #94a3b8; }
+    .card { background: #181b22; border: 1px solid #282d39; border-radius: 10px; padding: 14px; }
+    .hdr { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 10px; }
+    h3 { font-size: 13.5px; margin: 0; color: #f1f5f9; }
+    p { font-size: 12px; margin: 2px 0 0 0; color: #94a3b8; }
+    button { color: #fff; border: none; border-radius: 6px; padding: 6px 12px; font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap; }
+    button:hover { filter: brightness(1.12); }
+    video { width: 100%; max-width: 680px; height: auto; border-radius: 6px; display: block; background: #000; }
+      @media (max-width: 560px) { body { padding: 14px; } .hdr { flex-direction: column; align-items: flex-start; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div>
+      <h1>Opel Corsa B (v0026) vs. 20 m verankerte Meiser-Schutzplanke — 100 km/h &amp; 50 km/h</h1>
+      <p class="sub">Verst&auml;rkte DP800-Karosserie &middot; Sto&szlig;f&auml;nger &amp; Au&szlig;enspiegel aus genarbtem Kunststoff &middot; Innenraum mit Lenkrad &amp; Sitzen &middot; Anfangs- &amp; Endverankerung &middot; Kompakte Aufl&ouml;sung (800&times;480) &middot; Jedes Video spielt genau einmal ab.</p>
+    </div>
+    
+    <section class="group">
+      <div class="ghdr" style="border-left:4px solid #2563eb; padding-left:10px;">
+        <h2>Fall 1: 100 km/h @ 20° — Saphirblauer Opel Corsa B (DIN EN 1317 TB11)</h2>
+        <p class="gsub">Verstärkte DP800-Sicherheitszelle, schwarze Kunststoff-Stoßfänger & -Spiegel, Innenraum mit Lenkrad & Sitzen, 20 m verankerte Meiser-Schutzplanke.</p>
+      </div>
+      
+      <div class="card">
+        <div class="hdr">
+          <div>
+            <h3>1. Verfolgerkamera (100 km/h — Anfahrt ohne Absacken, Anprall & Umlenkung)</h3>
+            <p>0 ms – 325 ms &middot; 800&times;480 px &middot; 531 KB &middot; 1&times; Wiedergabe (kein Loop)</p>
+          </div>
+          <button style="background:#2563eb" onclick="const v=this.closest('.card').querySelector('video'); v.currentTime=0; v.play();">&#8634; Neu starten</button>
+        </div>
+        <video src="Crash_Opel_Corsa_100kmh_Blue_Tracking.mp4#t=0.001" controls playsinline preload="metadata"></video>
+      </div>
+      <div class="card">
+        <div class="hdr">
+          <div>
+            <h3>2. Hauptansicht 3/4-Front (100 km/h — Kunststoff-Stoßfänger, Spiegel & Innenraum)</h3>
+            <p>40 ms – 325 ms &middot; 800&times;480 px &middot; 536 KB &middot; 1&times; Wiedergabe (kein Loop)</p>
+          </div>
+          <button style="background:#2563eb" onclick="const v=this.closest('.card').querySelector('video'); v.currentTime=0; v.play();">&#8634; Neu starten</button>
+        </div>
+        <video src="Crash_Opel_Corsa_100kmh_Blue_Impact_3Q.mp4#t=0.001" controls playsinline preload="metadata"></video>
+      </div>
+      <div class="card">
+        <div class="hdr">
+          <div>
+            <h3>3. Schutzplanken-Rückseite (100 km/h — Pfostenarbeit & verankertes Zugband)</h3>
+            <p>40 ms – 325 ms &middot; 800&times;480 px &middot; 561 KB &middot; 1&times; Wiedergabe (kein Loop)</p>
+          </div>
+          <button style="background:#2563eb" onclick="const v=this.closest('.card').querySelector('video'); v.currentTime=0; v.play();">&#8634; Neu starten</button>
+        </div>
+        <video src="Crash_Opel_Corsa_100kmh_Blue_Backside.mp4#t=0.001" controls playsinline preload="metadata"></video>
+      </div>
+    </section>
+    <section class="group">
+      <div class="ghdr" style="border-left:4px solid #dc2626; padding-left:10px;">
+        <h2>Fall 2: 50 km/h @ 20° — Karminroter Opel Corsa B (Stadt-/Landstraßen-Anprall)</h2>
+        <p class="gsub">Viertel-Anprallenergie gegenüber 100 km/h: elastisch-plastische Stoßfängeraufnahme, steife Fahrgastzelle und sanfte Umlenkung an der verankerten Schutzplanke.</p>
+      </div>
+      
+      <div class="card">
+        <div class="hdr">
+          <div>
+            <h3>1. Verfolgerkamera (50 km/h — Anfahrt ohne Absacken, Anprall & Umlenkung)</h3>
+            <p>0 ms – 405 ms &middot; 800&times;480 px &middot; 500 KB &middot; 1&times; Wiedergabe (kein Loop)</p>
+          </div>
+          <button style="background:#dc2626" onclick="const v=this.closest('.card').querySelector('video'); v.currentTime=0; v.play();">&#8634; Neu starten</button>
+        </div>
+        <video src="Crash_Opel_Corsa_50kmh_Red_Tracking.mp4#t=0.001" controls playsinline preload="metadata"></video>
+      </div>
+      <div class="card">
+        <div class="hdr">
+          <div>
+            <h3>2. Hauptansicht 3/4-Front (50 km/h — Kunststoff-Stoßfänger, Spiegel & Innenraum)</h3>
+            <p>60 ms – 405 ms &middot; 800&times;480 px &middot; 485 KB &middot; 1&times; Wiedergabe (kein Loop)</p>
+          </div>
+          <button style="background:#dc2626" onclick="const v=this.closest('.card').querySelector('video'); v.currentTime=0; v.play();">&#8634; Neu starten</button>
+        </div>
+        <video src="Crash_Opel_Corsa_50kmh_Red_Impact_3Q.mp4#t=0.001" controls playsinline preload="metadata"></video>
+      </div>
+      <div class="card">
+        <div class="hdr">
+          <div>
+            <h3>3. Schutzplanken-Rückseite (50 km/h — Pfostenarbeit & verankertes Zugband)</h3>
+            <p>60 ms – 405 ms &middot; 800&times;480 px &middot; 606 KB &middot; 1&times; Wiedergabe (kein Loop)</p>
+          </div>
+          <button style="background:#dc2626" onclick="const v=this.closest('.card').querySelector('video'); v.currentTime=0; v.play();">&#8634; Neu starten</button>
+        </div>
+        <video src="Crash_Opel_Corsa_50kmh_Red_Backside.mp4#t=0.001" controls playsinline preload="metadata"></video>
+      </div>
+    </section>
+  </div>
+  <script>
+    document.querySelectorAll('video').forEach((v, idx) => {
+      v.loop = false;
+      if (idx === 0) {
+        v.muted = true;
+        v.play().catch(() => {});
+      }
+    });
+  </script>
+</body>
+</html>
