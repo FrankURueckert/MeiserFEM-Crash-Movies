@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MeiserFEM — Kalibrierte Opel Corsa B Crash-Movies (50 km/h Gr&uuml;n &middot; 100 km/h Blau &middot; 150 km/h Rot)</title>
+  <title>MeiserFEM — AISICO Test #2519 (Silberner Opel Corsa B &middot; Meiser Rail 4.0) &amp; Crash-Movies</title>
   <style>
     body { font-family: system-ui, -apple-system, Segoe UI, sans-serif; background: #101217; color: #e5e7eb; margin: 0; padding: 24px; }
-    .wrap { max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; gap: 30px; }
-    h1 { font-size: 19.5px; margin: 0 0 6px 0; color: #f8fafc; }
+    .wrap { max-width: 980px; margin: 0 auto; display: flex; flex-direction: column; gap: 30px; }
+    h1 { font-size: 20px; margin: 0 0 6px 0; color: #f8fafc; }
     .sub { font-size: 13px; color: #94a3b8; margin: 0; line-height: 1.5; }
-    .divider { border: none; border-top: 1px solid #282d39; margin: 4px 0; }
+    .divider { border: none; border-top: 1px solid #282d39; margin: 6px 0; }
     .group { display: flex; flex-direction: column; gap: 14px; }
-    .ghdr h2 { font-size: 16px; margin: 0; color: #f8fafc; }
+    .ghdr h2 { font-size: 16.5px; margin: 0; color: #f8fafc; }
     .gsub { font-size: 12.5px; margin: 3px 0 0 0; color: #94a3b8; line-height: 1.45; }
     .card { background: #181b22; border: 1px solid #282d39; border-radius: 10px; padding: 14px; }
     .hdr { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 10px; }
@@ -19,18 +19,131 @@
     p { font-size: 12px; margin: 2px 0 0 0; color: #94a3b8; }
     button { color: #fff; border: none; border-radius: 6px; padding: 6px 12px; font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap; }
     button:hover { filter: brightness(1.12); }
-    video { width: 100%; max-width: 700px; height: auto; border-radius: 6px; display: block; background: #000; }
-    @media (max-width: 560px) {
+    video { width: 100%; max-width: 820px; height: auto; border-radius: 6px; display: block; background: #000; }
+    .grid2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .grid2 video, .grid2 img { width: 100%; max-width: 100%; border-radius: 6px; display: block; background: #000; }
+    @media (max-width: 720px) {
       body { padding: 14px; }
       .hdr { flex-direction: column; align-items: flex-start; }
+      .grid2 { grid-template-columns: 1fr; }
     }
   </style>
 </head>
 <body>
   <div class="wrap">
     <div>
-      <h1>Opel Corsa B (v0027, YouTube-kalibriert) — 50 km/h Gr&uuml;n &middot; 100 km/h Blau &middot; 150 km/h Rot</h1>
-      <p class="sub">Geschmiedete 42CrMo4-Frontt&uuml;rscharniere &middot; 5-stufige Stahlkalibrierung (DC04 Kotfl&uuml;gel 0,85 mm, BH220 Motorhaube 0,88 mm, HSLA340 Vorderwagen, S420MC L&auml;ngstr&auml;ger, DP800 Sicherheitszelle) &middot; 20 m beidseitig verankerte Meiser-Schutzplanke (20&deg;) &amp; 90&deg;-Betonmauer-Validierung &middot; Jedes Video spielt genau einmal ab.</p>
+      <h1>MeiserFEM — AISICO Crash-Test #2519 (Meiser Rail 4.0 &middot; Silberner Opel Corsa B, 927,4 kg, 100,4 km/h, 20,1&deg;)</h1>
+      <p class="sub">Originalgetreue LS-DYNA- &amp; Blender-5.0-Nachstellung nach UNI EN 1317-2 TB11: Starsilber-Lackierung mit <code>2519</code>-Markierungen &middot; verst&auml;rkte Karosseriewandst&auml;rken ohne Schwingen &amp; starre Heckklappe &middot; abbrechendes linkes Vorderrad (<code>t = 181 ms</code>) &middot; 4,0-m-Pfostenabstand mit Schuppensto&szlig; in Fahrtrichtung &middot; ASI Klasse A &amp; THIV-Validierung gegen Pr&uuml;fbericht &middot; Alle Videos spielen genau einmal ab.</p>
+    </div>
+
+    <section class="group">
+      <div class="ghdr" style="border-left:4px solid #f59e0b; padding-left:10px;">
+        <h2>AISICO Test #2519 — Alle 6 realen Kameraperspektiven (jeweils Zeitlupe 1:8 &amp; Echtzeit)</h2>
+        <p class="gsub">Masse exakt 927,4 kg (791,2 kg Leergewicht + 78,0 kg Hybrid-III-Dummy + 58,2 kg Messtechnik) &middot; Anprall 0,70 m vor Pfosten 0 &middot; sanfte Umlenkung mit 87,6 km/h Ausfahrt &middot; ASI<sub>max</sub> = 0,582 (Klasse A &le; 1,0) &middot; THIV = 18,6 km/h @ ToF = 127,7 ms (Messung: 22,6 km/h @ 132 ms).</p>
+      </div>
+
+      <div class="card">
+        <div class="hdr">
+          <div>
+            <h3>1. Kamera &bdquo;Above&ldquo; (Vogelperspektive Kran — Holmausbiegung, Umlenkung &amp; 2-m-Messraster)</h3>
+            <p>Links: Zeitlupe (0,23 MB) &middot; Rechts: Echtzeit (0,11 MB) &middot; 1&times; Wiedergabe</p>
+          </div>
+          <button style="background:#d97706" onclick="this.closest('.card').querySelectorAll('video').forEach(v=>{v.currentTime=0;v.play();});">&#8634; Beide abspielen</button>
+        </div>
+        <div class="grid2">
+          <div><p style="margin-bottom:5px;color:#fcd34d;font-weight:600;">Zeitlupe (1:8)</p><video src="Test2519_Movies/Test2519_Corsa_Silber_Cam_Above_Zeitlupe.mp4#t=0.001" controls playsinline preload="metadata"></video></div>
+          <div><p style="margin-bottom:5px;color:#93c5fd;font-weight:600;">Echtzeit (Normalgeschwindigkeit)</p><video src="Test2519_Movies/Test2519_Corsa_Silber_Cam_Above_Echtzeit.mp4#t=0.001" controls playsinline preload="metadata"></video></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="hdr">
+          <div>
+            <h3>2. Kamera &bdquo;Front&ldquo; (Tele-Frontansicht entlang der Schutzplanke — Anfahrt, Pfostenbiegung &amp; Ausfahrt)</h3>
+            <p>Links: Zeitlupe (0,59 MB) &middot; Rechts: Echtzeit (0,22 MB) &middot; 1&times; Wiedergabe</p>
+          </div>
+          <button style="background:#d97706" onclick="this.closest('.card').querySelectorAll('video').forEach(v=>{v.currentTime=0;v.play();});">&#8634; Beide abspielen</button>
+        </div>
+        <div class="grid2">
+          <div><p style="margin-bottom:5px;color:#fcd34d;font-weight:600;">Zeitlupe (1:8)</p><video src="Test2519_Movies/Test2519_Corsa_Silber_Cam_Front_Zeitlupe.mp4#t=0.001" controls playsinline preload="metadata"></video></div>
+          <div><p style="margin-bottom:5px;color:#93c5fd;font-weight:600;">Echtzeit (Normalgeschwindigkeit)</p><video src="Test2519_Movies/Test2519_Corsa_Silber_Cam_Front_Echtzeit.mp4#t=0.001" controls playsinline preload="metadata"></video></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="hdr">
+          <div>
+            <h3>3. Kamera &bdquo;Axial&ldquo; (3/4-Ansicht hinter der Planke — Abbrechen des linken Vorderrads bei t = 181 ms)</h3>
+            <p>Links: Zeitlupe (0,46 MB) &middot; Rechts: Echtzeit (0,18 MB) &middot; 1&times; Wiedergabe</p>
+          </div>
+          <button style="background:#d97706" onclick="this.closest('.card').querySelectorAll('video').forEach(v=>{v.currentTime=0;v.play();});">&#8634; Beide abspielen</button>
+        </div>
+        <div class="grid2">
+          <div><p style="margin-bottom:5px;color:#fcd34d;font-weight:600;">Zeitlupe (1:8)</p><video src="Test2519_Movies/Test2519_Corsa_Silber_Cam_Axial_Zeitlupe.mp4#t=0.001" controls playsinline preload="metadata"></video></div>
+          <div><p style="margin-bottom:5px;color:#93c5fd;font-weight:600;">Echtzeit (Normalgeschwindigkeit)</p><video src="Test2519_Movies/Test2519_Corsa_Silber_Cam_Axial_Echtzeit.mp4#t=0.001" controls playsinline preload="metadata"></video></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="hdr">
+          <div>
+            <h3>4. Kamera &bdquo;Rear&ldquo; (Heckansicht entlang des W-Holms — unverformte, ruhige Heckklappe &amp; Ausklinken)</h3>
+            <p>Links: Zeitlupe (0,42 MB) &middot; Rechts: Echtzeit (0,16 MB) &middot; 1&times; Wiedergabe</p>
+          </div>
+          <button style="background:#d97706" onclick="this.closest('.card').querySelectorAll('video').forEach(v=>{v.currentTime=0;v.play();});">&#8634; Beide abspielen</button>
+        </div>
+        <div class="grid2">
+          <div><p style="margin-bottom:5px;color:#fcd34d;font-weight:600;">Zeitlupe (1:8)</p><video src="Test2519_Movies/Test2519_Corsa_Silber_Cam_Rear_Zeitlupe.mp4#t=0.001" controls playsinline preload="metadata"></video></div>
+          <div><p style="margin-bottom:5px;color:#93c5fd;font-weight:600;">Echtzeit (Normalgeschwindigkeit)</p><video src="Test2519_Movies/Test2519_Corsa_Silber_Cam_Rear_Echtzeit.mp4#t=0.001" controls playsinline preload="metadata"></video></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="hdr">
+          <div>
+            <h3>5. Kamera &bdquo;Rear B&ldquo; (Tiefe Nahaufnahme Pfosten 0 / Pfosten 1 — Langloch-Freigabe &amp; Radabriss)</h3>
+            <p>Links: Zeitlupe (0,58 MB) &middot; Rechts: Echtzeit (0,20 MB) &middot; 1&times; Wiedergabe</p>
+          </div>
+          <button style="background:#d97706" onclick="this.closest('.card').querySelectorAll('video').forEach(v=>{v.currentTime=0;v.play();});">&#8634; Beide abspielen</button>
+        </div>
+        <div class="grid2">
+          <div><p style="margin-bottom:5px;color:#fcd34d;font-weight:600;">Zeitlupe (1:8)</p><video src="Test2519_Movies/Test2519_Corsa_Silber_Cam_RearB_Zeitlupe.mp4#t=0.001" controls playsinline preload="metadata"></video></div>
+          <div><p style="margin-bottom:5px;color:#93c5fd;font-weight:600;">Echtzeit (Normalgeschwindigkeit)</p><video src="Test2519_Movies/Test2519_Corsa_Silber_Cam_RearB_Echtzeit.mp4#t=0.001" controls playsinline preload="metadata"></video></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="hdr">
+          <div>
+            <h3>6. Kamera &bdquo;On-Board&ldquo; (Innenraum-Kamera mit Lenkrad, Armaturentafel &amp; gespiegeltem 2519-Schild)</h3>
+            <p>Links: Zeitlupe (0,57 MB) &middot; Rechts: Echtzeit (0,19 MB) &middot; 1&times; Wiedergabe</p>
+          </div>
+          <button style="background:#d97706" onclick="this.closest('.card').querySelectorAll('video').forEach(v=>{v.currentTime=0;v.play();});">&#8634; Beide abspielen</button>
+        </div>
+        <div class="grid2">
+          <div><p style="margin-bottom:5px;color:#fcd34d;font-weight:600;">Zeitlupe (1:8)</p><video src="Test2519_Movies/Test2519_Corsa_Silber_Cam_OnBoard_Zeitlupe.mp4#t=0.001" controls playsinline preload="metadata"></video></div>
+          <div><p style="margin-bottom:5px;color:#93c5fd;font-weight:600;">Echtzeit (Normalgeschwindigkeit)</p><video src="Test2519_Movies/Test2519_Corsa_Silber_Cam_OnBoard_Echtzeit.mp4#t=0.001" controls playsinline preload="metadata"></video></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-bottom:10px;">ASI-, THIV-, Gierwinkel- &amp; Leitplanken-Validierung (LS-DYNA vs. PDF-Messung #2519)</h3>
+        <div class="grid2">
+          <a href="Test2519_Validation/T2519_ASI_Sim_vs_Messung.png" target="_blank"><img src="Test2519_Validation/T2519_ASI_Sim_vs_Messung.png" alt="ASI Simulation vs Messung" /></a>
+          <a href="Test2519_Validation/T2519_THIV_Sim_vs_Messung.png" target="_blank"><img src="Test2519_Validation/T2519_THIV_Sim_vs_Messung.png" alt="THIV Simulation vs Messung" /></a>
+          <a href="Test2519_Validation/T2519_Gierwinkel_Sim_vs_Messung.png" target="_blank"><img src="Test2519_Validation/T2519_Gierwinkel_Sim_vs_Messung.png" alt="Gierwinkel Simulation vs Messung" /></a>
+          <a href="Test2519_Validation/T2519_Draufsicht_Holmausbiegung.png" target="_blank"><img src="Test2519_Validation/T2519_Draufsicht_Holmausbiegung.png" alt="Holmausbiegung Draufsicht" /></a>
+          <a href="Test2519_Validation/T2519_Beschleunigungen_Sim_vs_Messung.png" target="_blank"><img src="Test2519_Validation/T2519_Beschleunigungen_Sim_vs_Messung.png" alt="Beschleunigungen CFC13" /></a>
+          <a href="Test2519_Validation/T2519_Leitplankenverformung_Pfosten.png" target="_blank"><img src="Test2519_Validation/T2519_Leitplankenverformung_Pfosten.png" alt="Pfostenverformung" /></a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <div>
+      <h2 style="font-size:17px;margin:0 0 6px 0;color:#f8fafc;">Weitere Parameterstudien: Opel Corsa B — 50 km/h Gr&uuml;n &middot; 100 km/h Blau &middot; 150 km/h Rot</h2>
+      <p class="sub">Geschmiedete 42CrMo4-Frontt&uuml;rscharniere &middot; 5-stufige Stahlkalibrierung &middot; 20 m beidseitig verankerte Meiser-Schutzplanke (20&deg;) &amp; 90&deg;-Betonmauer-Validierung.</p>
     </div>
     
     <section class="group">
