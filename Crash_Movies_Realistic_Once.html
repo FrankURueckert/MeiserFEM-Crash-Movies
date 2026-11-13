@@ -33,20 +33,20 @@
   <div class="wrap">
     <div>
       <h1>MeiserFEM — AISICO Crash-Test #2519 (Meiser Rail 4.0 &middot; Silberner Opel Corsa B, 927,4 kg, 100,4 km/h, 20,1&deg;)</h1>
-      <p class="sub">Originalgetreue LS-DYNA- &amp; Blender-5.0-Nachstellung nach UNI EN 1317-2 TB11: Starsilber-Lackierung mit <code>2519</code>-Markierungen &middot; verst&auml;rkte Karosseriewandst&auml;rken ohne Schwingen &amp; starre Heckklappe &middot; abbrechendes linkes Vorderrad (<code>t = 181 ms</code>) &middot; 4,0-m-Pfostenabstand mit Schuppensto&szlig; in Fahrtrichtung &middot; ASI Klasse A &amp; THIV-Validierung gegen Pr&uuml;fbericht &middot; Alle Videos spielen genau einmal ab.</p>
+      <p class="sub">Originalgetreue LS-DYNA- &amp; Blender-5.0-Nachstellung nach UNI EN 1317-2 TB11: Starsilber-Lackierung mit <code>2519</code>-Markierungen &middot; verst&auml;rkte Karosseriewandst&auml;rken ohne Schwingen &amp; starre Heckklappe &middot; abbrechendes linkes Vorderrad (<code>t = 86 ms</code>) &middot; 4,0-m-Pfostenabstand mit Schuppensto&szlig; in Fahrtrichtung &middot; ASI Klasse A &amp; THIV-Validierung gegen Pr&uuml;fbericht &middot; Alle Videos spielen genau einmal ab.</p>
     </div>
 
     <section class="group">
       <div class="ghdr" style="border-left:4px solid #f59e0b; padding-left:10px;">
         <h2>AISICO Test #2519 — Alle 6 realen Kameraperspektiven (jeweils Zeitlupe 1:8 &amp; Echtzeit)</h2>
-        <p class="gsub">Masse exakt 927,4 kg (791,2 kg Leergewicht + 78,0 kg Hybrid-III-Dummy + 58,2 kg Messtechnik) &middot; Anprall 0,70 m vor Pfosten 0 &middot; sanfte Umlenkung mit 87,6 km/h Ausfahrt &middot; ASI<sub>max</sub> = 0,582 (Klasse A &le; 1,0) &middot; THIV = 18,6 km/h @ ToF = 127,7 ms (Messung: 22,6 km/h @ 132 ms).</p>
+        <p class="gsub">Masse exakt 927,4 kg (791,2 kg Leergewicht + 78,0 kg Hybrid-III-Dummy + 58,2 kg Messtechnik) &middot; Anprall 0,70 m vor Pfosten 0 &middot; sanfte Umlenkung mit 65,9 km/h Ausfahrt (+10,9&deg; Gierwinkel) &middot; ASI<sub>max</sub> = 0,772 @ 115,3 ms (Klasse A &le; 1,0; Messung 0,926) &middot; THIV = 28,5 km/h @ ToF = 131,9 ms (Messung: 22,6 km/h @ 132 ms) &middot; D<sub>m</sub> = 0,74 m / W = 0,77 m (W2).</p>
       </div>
 
       <div class="card">
         <div class="hdr">
           <div>
             <h3>1. Kamera &bdquo;Above&ldquo; (Vogelperspektive Kran — Holmausbiegung, Umlenkung &amp; 2-m-Messraster)</h3>
-            <p>Links: Zeitlupe (0,23 MB) &middot; Rechts: Echtzeit (0,11 MB) &middot; 1&times; Wiedergabe</p>
+            <p>Links: Zeitlupe (0,21 MB) &middot; Rechts: Echtzeit (0,10 MB) &middot; 1&times; Wiedergabe</p>
           </div>
           <button style="background:#d97706" onclick="this.closest('.card').querySelectorAll('video').forEach(v=>{v.currentTime=0;v.play();});">&#8634; Beide abspielen</button>
         </div>
@@ -60,7 +60,7 @@
         <div class="hdr">
           <div>
             <h3>2. Kamera &bdquo;Front&ldquo; (Tele-Frontansicht entlang der Schutzplanke — Anfahrt, Pfostenbiegung &amp; Ausfahrt)</h3>
-            <p>Links: Zeitlupe (0,59 MB) &middot; Rechts: Echtzeit (0,22 MB) &middot; 1&times; Wiedergabe</p>
+            <p>Links: Zeitlupe (0,56 MB) &middot; Rechts: Echtzeit (0,22 MB) &middot; 1&times; Wiedergabe</p>
           </div>
           <button style="background:#d97706" onclick="this.closest('.card').querySelectorAll('video').forEach(v=>{v.currentTime=0;v.play();});">&#8634; Beide abspielen</button>
         </div>
@@ -73,8 +73,8 @@
       <div class="card">
         <div class="hdr">
           <div>
-            <h3>3. Kamera &bdquo;Axial&ldquo; (3/4-Ansicht hinter der Planke — Abbrechen des linken Vorderrads bei t = 181 ms)</h3>
-            <p>Links: Zeitlupe (0,46 MB) &middot; Rechts: Echtzeit (0,18 MB) &middot; 1&times; Wiedergabe</p>
+            <h3>3. Kamera &bdquo;Axial&ldquo; (3/4-Ansicht hinter der Planke — Abbrechen des linken Vorderrads bei t = 86 ms)</h3>
+            <p>Links: Zeitlupe (0,42 MB) &middot; Rechts: Echtzeit (0,17 MB) &middot; 1&times; Wiedergabe</p>
           </div>
           <button style="background:#d97706" onclick="this.closest('.card').querySelectorAll('video').forEach(v=>{v.currentTime=0;v.play();});">&#8634; Beide abspielen</button>
         </div>
@@ -88,7 +88,7 @@
         <div class="hdr">
           <div>
             <h3>4. Kamera &bdquo;Rear&ldquo; (Heckansicht entlang des W-Holms — unverformte, ruhige Heckklappe &amp; Ausklinken)</h3>
-            <p>Links: Zeitlupe (0,42 MB) &middot; Rechts: Echtzeit (0,16 MB) &middot; 1&times; Wiedergabe</p>
+            <p>Links: Zeitlupe (0,33 MB) &middot; Rechts: Echtzeit (0,14 MB) &middot; 1&times; Wiedergabe</p>
           </div>
           <button style="background:#d97706" onclick="this.closest('.card').querySelectorAll('video').forEach(v=>{v.currentTime=0;v.play();});">&#8634; Beide abspielen</button>
         </div>
@@ -102,7 +102,7 @@
         <div class="hdr">
           <div>
             <h3>5. Kamera &bdquo;Rear B&ldquo; (Tiefe Nahaufnahme Pfosten 0 / Pfosten 1 — Langloch-Freigabe &amp; Radabriss)</h3>
-            <p>Links: Zeitlupe (0,58 MB) &middot; Rechts: Echtzeit (0,20 MB) &middot; 1&times; Wiedergabe</p>
+            <p>Links: Zeitlupe (0,36 MB) &middot; Rechts: Echtzeit (0,16 MB) &middot; 1&times; Wiedergabe</p>
           </div>
           <button style="background:#d97706" onclick="this.closest('.card').querySelectorAll('video').forEach(v=>{v.currentTime=0;v.play();});">&#8634; Beide abspielen</button>
         </div>
@@ -116,7 +116,7 @@
         <div class="hdr">
           <div>
             <h3>6. Kamera &bdquo;On-Board&ldquo; (Innenraum-Kamera mit Lenkrad, Armaturentafel &amp; gespiegeltem 2519-Schild)</h3>
-            <p>Links: Zeitlupe (0,57 MB) &middot; Rechts: Echtzeit (0,19 MB) &middot; 1&times; Wiedergabe</p>
+            <p>Links: Zeitlupe (0,59 MB) &middot; Rechts: Echtzeit (0,20 MB) &middot; 1&times; Wiedergabe</p>
           </div>
           <button style="background:#d97706" onclick="this.closest('.card').querySelectorAll('video').forEach(v=>{v.currentTime=0;v.play();});">&#8634; Beide abspielen</button>
         </div>
