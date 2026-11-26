@@ -1,0 +1,104 @@
+{
+  "simulation": {
+    "asiMax": 0.909,
+    "asiTimeMs": 192.1,
+    "asiPeak1": 0.586,
+    "asiPeak1TimeMs": 95.0,
+    "thivKmh": 23.4,
+    "flightTimeMs": 137.1,
+    "axMinG_CFC13": -14.89,
+    "ayMaxG_CFC13": 8.2,
+    "yawAt0p80sDeg": 15.55,
+    "yawAt0p85sDeg": 15.79,
+    "dynamicDeflectionM": 0.82,
+    "permanentDeflectionM": 0.66,
+    "workingWidthM": 0.86,
+    "deformedLengthM": 18.1,
+    "posts": {
+      "-3": {
+        "xMm": 14000.0,
+        "dynCm": 0.9,
+        "permCm": 0.4
+      },
+      "-2": {
+        "xMm": 10000.0,
+        "dynCm": 4.5,
+        "permCm": 3.6
+      },
+      "-1": {
+        "xMm": 6000.0,
+        "dynCm": 19.6,
+        "permCm": 16.1
+      },
+      "0": {
+        "xMm": 2000.0,
+        "dynCm": 59.2,
+        "permCm": 54.3
+      },
+      "1": {
+        "xMm": -2000.0,
+        "dynCm": 69.8,
+        "permCm": 56.0
+      },
+      "2": {
+        "xMm": -6000.0,
+        "dynCm": 27.3,
+        "permCm": 22.2
+      },
+      "3": {
+        "xMm": -10000.0,
+        "dynCm": 2.5,
+        "permCm": 1.7
+      },
+      "4": {
+        "xMm": -14000.0,
+        "dynCm": 0.4,
+        "permCm": -0.7
+      }
+    },
+    "frontLeftHubBeamsBrokenFraction": 1.0,
+    "frontLeftWheelDetachTimeMs": 62.3,
+    "frontTrackChangeM": 21.009,
+    "tailgateMaxShapeDeviationMm": 14.3,
+    "energyRatio": 1.01723,
+    "massKg": 927.4,
+    "cg": {
+      "cgBehindFrontAxleMm": 863.0,
+      "cgHeightMm": 454.1,
+      "accelCenterNid": 35175,
+      "accelFrontNid": 35156,
+      "accelRearNid": 35194,
+      "accelPatchNodeCount": 11
+    }
+  },
+  "dinEn16303": {
+    "asiDelta": -0.017,
+    "asiLimitAbs": 0.1,
+    "asiTimeDeltaMs": -17.9,
+    "asiTimeLimitMs": 50.0,
+    "asiTab7Pass": true,
+    "thivDeltaKmh": 0.81,
+    "thivLimitKmh": 3.0,
+    "thivTimeDeltaMs": 5.1,
+    "thivTimeLimitMs": 50.0,
+    "thivTab8Pass": true
+  },
+  "measured": {
+    "asiMax": 0.926,
+    "asiTimeMs": 210.0,
+    "thivKmh": 22.6,
+    "flightTimeMs": 132.0,
+    "dynamicDeflectionM": 0.7,
+    "permanentDeflectionM": 0.6,
+    "workingWidthM": 0.8,
+    "deformedLengthM": 16.0,
+    "postsPermCm": {
+      "-2": 0.0,
+      "-1": 2.0,
+      "0": 28.0,
+      "1": 55.0,
+      "2": 2.0,
+      "3": 0.0
+    }
+  }
+}

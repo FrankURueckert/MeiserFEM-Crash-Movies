@@ -1,0 +1,24 @@
+{
+  "movies": [
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Test2519_Corsa_Silber_Cam_Above_Zeitlupe.mp4",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Test2519_Corsa_Silber_Cam_Above_Echtzeit.mp4",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Test2519_Corsa_Silber_Cam_Front_Zeitlupe.mp4",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Test2519_Corsa_Silber_Cam_Front_Echtzeit.mp4",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Test2519_Corsa_Silber_Cam_Axial_Zeitlupe.mp4",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Test2519_Corsa_Silber_Cam_Axial_Echtzeit.mp4",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Test2519_Corsa_Silber_Cam_Rear_Zeitlupe.mp4",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Test2519_Corsa_Silber_Cam_Rear_Echtzeit.mp4",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Test2519_Corsa_Silber_Cam_RearB_Zeitlupe.mp4",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Test2519_Corsa_Silber_Cam_RearB_Echtzeit.mp4",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Test2519_Corsa_Silber_Cam_OnBoard_Zeitlupe.mp4",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Test2519_Corsa_Silber_Cam_OnBoard_Echtzeit.mp4"
+  ],
+  "comparisons": [
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Vergleich_Real_vs_Sim_Cam_Above.jpg",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Vergleich_Real_vs_Sim_Cam_Front.jpg",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Vergleich_Real_vs_Sim_Cam_Axial.jpg",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Vergleich_Real_vs_Sim_Cam_Rear.jpg",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Vergleich_Real_vs_Sim_Cam_RearB.jpg",
+    "c:\\Users\\frank.rueckert\\Documents\\MeiserFEM\\Blender\\Test2519_Movies\\Vergleich_Real_vs_Sim_Cam_OnBoard.jpg"
+  ]
+}
